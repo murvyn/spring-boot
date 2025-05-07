@@ -1,8 +1,8 @@
 package com.marvin.store;
 
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Qualifier;
 
-@Component
+// @Service
 public class OrderService {
     private PaymentService paymentService;
 
